@@ -7,10 +7,20 @@
 let student = 'Sara';
 student = 'Kim';
 
+// initialize the variable
+let output;
+
+console.log(output)
 console.log(student)
 
 
 //const
 const person = 'John';
+const value;
 // person = 'Sam';
 console.log(person);
+
+//multi words
+let firstName = 'Sara'; //camelCase
+let LastName = 'Smith'; //PascalCase
+let first_name = 'Doe'; //Underscore
