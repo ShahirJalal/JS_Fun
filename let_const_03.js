@@ -16,7 +16,7 @@ console.log(student)
 
 //const
 const person = 'John';
-const value;
+// const value;
 // person = 'Sam';
 console.log(person);
 
