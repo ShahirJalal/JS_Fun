@@ -32,6 +32,7 @@ console.log(square(5));
 })();
 
 // Property method
+// When a function is a property of an object, its called method
 
 const todo = {
     add : function() {
