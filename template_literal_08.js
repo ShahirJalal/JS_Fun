@@ -1,5 +1,5 @@
 const name = 'Sara';
-const age = '30';
+const age = 30;
 const job = 'Actor';
 const city = 'Kuala Lumpur';
 let output;

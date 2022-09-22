@@ -1,12 +1,8 @@
 // Function declaration
 
-// function greet(firstName, lastName) {
+function greet(firstName = 'John', lastName = 'Doe') {
 //     if(typeof firstName === 'undefined') {firstName = 'John'}
 //     if(typeof lastName === 'undefined') {lastName = 'Doe'}
-
-//     console.log(`Welcome ${firstName} ${lastName}`)
-// }
-function greet(firstName = 'John', lastName = 'Doe') {
 
     console.log(`Welcome ${firstName} ${lastName}`)
 }
@@ -39,8 +35,9 @@ const todo = {
         console.log('add to the list');
     },
     edit : function() {
-        consolelog('edit the list');
+        console.log('edit the list');
     }
 }
 
 todo.add();
+todo.edit();

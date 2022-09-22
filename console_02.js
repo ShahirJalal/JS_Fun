@@ -7,3 +7,9 @@ console.warn('This is some warning...');
 // console.clear();
 
 // how to comment
+
+// one line comment
+
+/* multi
+line
+comment */

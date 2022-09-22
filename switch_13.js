@@ -13,4 +13,3 @@ switch(color){
         default:
             console.log('no valid color');
 }
-const car = 'perodua'

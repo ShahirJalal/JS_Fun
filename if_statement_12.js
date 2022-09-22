@@ -56,20 +56,20 @@ const age = 25;
 // }else if (age >= 13 && age <= 19) {
 //     console.log(`${userName} is a teenager`);
 // }else {
-//     console.log(`${userName} is an adult`)
+//     console.log(`${userName} is an adult`);
 // }
 
 // OR ||
-// if (age < 16 || age > 65) {
-//     console.log(`${userName} can not run`)
-// }else {
-//     console.log(`${userName} is registered`)
-// }
+if (age < 16 || age > 65) {
+    console.log(`${userName} can not run`);
+}else {
+    console.log(`${userName} is registered`);
+}
 
 
 // Ternary operators (only one condition)
 
-console.log(id === 100 ? 'correct number' : 'invalid number')
+console.log(id === 100 ? 'correct number' : 'invalid number');
 
 //Without braces
 if (id === 100)

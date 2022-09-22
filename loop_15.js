@@ -6,7 +6,7 @@
 //         continue;
 //     }
 //     if(i === 5) {
-//         console.log('stop the loop')
+//         console.log('stop the loop');
 //         break;
 //     }
 //     console.log(i);
@@ -24,7 +24,7 @@
 
 //Do wile
 
-// let i = 0
+// let i = 100;
 
 // do {
 //     console.log(i);
@@ -41,7 +41,6 @@ const numbers = [22, 33, 44, 55, 66, 77, 88, 99];
 // }
 
 // forEach (its only for arrays)
-
 // numbers.forEach(function(num, index) {
 //     console.log(index, num)
 // });
@@ -53,9 +52,9 @@ const users = [
     {name: 'John', id:3},
 ];
 
-// for(let i = 0; i < users.length; i++) {
-//     console.log(users[i].name);
-// }
+for(let i = 0; i < users.length; i++) {
+    console.log(users[i].name);
+}
 
 users.forEach(function(user) {
     console.log(user.name)

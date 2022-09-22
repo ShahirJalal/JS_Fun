@@ -1,0 +1,1 @@
+// JavaScript file has a .js extension

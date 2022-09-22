@@ -19,6 +19,7 @@ const person = 'John';
 // const value;
 // person = 'Sam';
 console.log(person);
+// console.log(value);
 
 //multi words
 let firstName = 'Sara'; //camelCase

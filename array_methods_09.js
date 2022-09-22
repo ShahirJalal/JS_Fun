@@ -47,7 +47,7 @@ numbers.shift();
 val = numbers.concat(numbers2);
 
 // // Sort arrays
-// val = fruits.sort();
+val = fruits.sort();
 // val = numbers.sort();
 
 // Sorting an array with compare function
@@ -63,7 +63,7 @@ val = numbers.concat(numbers2);
 // over 50
 function over50(num) {
     return num > 50;
-}
+};
 val = numbers.find(over50);
 
 
